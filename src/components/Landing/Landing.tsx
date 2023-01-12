@@ -1,10 +1,14 @@
 import React from "react";
-import PortfolioPage from "./PortfolioPage";
+import Hero from "./Hero";
+import TechStack from "./TechStack";
 
 const Landing: React.FC<{}> = () => {
     return (
         <div>
-            <PortfolioPage />
+            <div className="h-full bg-[#FFFFF} px-32">
+                <Hero />
+                <TechStack />
+            </div>
         </div>
     );
 };
