@@ -1,5 +1,4 @@
 import React from "react";
-import * as profile from "../../assets/profile.png";
 const me = require("../../assets/pfpfinal.png")
 
 const Header: React.FC<{}> = () => {
