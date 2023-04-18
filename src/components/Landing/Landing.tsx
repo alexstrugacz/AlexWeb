@@ -8,8 +8,8 @@ const Landing: React.FC<{}> = () => {
         <div>
             <div className="h-full bg-[#FFFFF} px-32">
                 <Hero />
-                <TechStack />
-                <Projects />
+                {/* <TechStack /> */}
+                {/* <Projects /> */}
             </div>
         </div>
     );
