@@ -6,7 +6,7 @@ import Projects from "./projects/Projects";
 const Landing: React.FC<{}> = () => {
     return (
         <div>
-            <div className="h-full bg-[#FFFFF} px-32">
+            <div className="h-screen bg-[#FFFFF} px-32">
                 <Hero />
                 {/* <TechStack /> */}
                 {/* <Projects /> */}
